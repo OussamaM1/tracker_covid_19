@@ -1,6 +1,6 @@
 ## Introduction
 
-This a simple COVID-19 tracker usign React.
+This a simple COVID-19 tracker using React.
 
 APi used :  https://covid19.mathdro.id/api
 
