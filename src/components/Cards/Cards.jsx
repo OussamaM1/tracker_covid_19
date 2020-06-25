@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Cards.module.css';
-import {Card , CardContent ,Typography , Grid, StylesProvider } from '@material-ui/core';
+import {Card , CardContent ,Typography , Grid } from '@material-ui/core';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 
