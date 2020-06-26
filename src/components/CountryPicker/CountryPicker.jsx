@@ -12,14 +12,14 @@ const Countries = ({ handleCountryChange }) => {
     const fetchAPI = async () => {
       setCountries(await fetchCountries());
     };
-
+    
     fetchAPI();
   }, []);
 
   return (
     <FormControl className={styles.formControl}>
       <NativeSelect defaultValue="" onChange={(e) => handleCountryChange(e.target.value)}>
-        <option value="">Global</option>
+        <option value="">Select Country - Global</option>
         {countries.map((country, i) => <option key={i} value={country}>{country}</option>) }
       </NativeSelect>
     </FormControl>
